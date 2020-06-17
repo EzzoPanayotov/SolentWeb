@@ -1,10 +1,38 @@
-#pic1{ /* Selecto */
+#pic1{ /* Selecto, "pic1" is the ID of the picture that I used  */
 
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius:  10px;
 
+}
+#name{
+       font-family: Verdana;
+}
 
+#email{
 
+       font-family: Verdana;
+}
 
+#number{
+
+       font-family: Verdana;
+}
+
+#Statement{
+        font-family: Verdana;
+}
+#p1{
+        font-family: 'Segoe UI';
+        color:blue;
+}
+#t1{
+        border: 1px solid;
+        border-collapse: 1px;
+}
+td{
+        border: 1px solid;
+}
+body{
+    background-color: wheat;
 }
