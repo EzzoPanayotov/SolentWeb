@@ -1,0 +1,71 @@
+#content img {
+    width: 10%;
+    float: left;
+    margin-right: 15%;/* Distance between the container and the border*/
+
+}
+
+#content ul{
+    float: left;
+    width: 40%;
+}
+#content ul li{
+    display: inline;
+    padding-right: 2%;/* Makes the text move to the right.... Paddint is between the text and the container */
+    
+}
+
+table td{
+    width: 14%;
+    
+}
+
+#dash div{
+    border-bottom: 3px solid grey;
+    width: 12px;
+    border-radius: 10px;
+    
+}
+
+h3,h5{
+    color: rgb(255, 94, 129);
+    font-family: verdana;
+}
+
+
+h1{
+    word-spacing: 10%;
+    font-family: verdana;
+}
+
+button{
+    background-color: limegreen;
+    border-radius: 10px;
+    color: white;
+}
+
+article{
+    border: 1px solid #CCC;
+    width: 20%;
+    padding: 20px;
+    float: left;
+    font-family: verdana;
+}
+#section img{
+float: left;
+width: 350px;
+height: 400px;
+
+}
+
+@media only screen and (max-width: 700px){
+    table{
+        padding-right: 50% ;
+    }
+    h1{
+        font-size: 15px;
+    }
+   /* #content img{
+        float: none; works the same way as padding-right 50% on table
+    }*/ 
+}

@@ -1,0 +1,29 @@
+#left{
+    width: 20%;
+    background-color: red;
+}
+
+#main{
+    width:60%;
+    background-color: yellow;
+
+}
+
+#right{
+    width: 20%;
+    background-color: blue;
+
+}
+div{
+    height: 100px;
+    float: left;
+}
+@media only screen and (max-width: 500px){
+
+    div{
+        float: none;
+    }
+    #left, #main, #right{
+        width: 100%;
+    }
+}
