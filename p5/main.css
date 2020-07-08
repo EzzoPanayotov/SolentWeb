@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    height: 83px;
+    width: 100%;
+    background-color: 	#3b5998;
+    
+}
+
+#header img{
+    height: 83px;
+    width: 10%;
+    margin-left: 15%;
+    float: left;
+}
+#header table{
+
+    float: right;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    color: white;
+    font-family: Calibri;
+    width: 330px;
+}
+table td{
+    padding-bottom: 1%;
+    padding-right: 2%;
+}
+
+
+#header button{
+    background-color: #4267b2 ;
+    color: white;
+    border: 1px solid black;
+    font-family: Calibri;
+    width: 55px;
+}
+
+#header button:hover{
+background-color: #3b5998;
+
+}
+
+#header a{
+    text-decoration: none;
+    color: #6984b6;
+    font-size: 15px;
+}
+
+#header a:hover{
+    text-decoration: underline;
+
+}
+
+#header input{
+    width: 115px;
+    border: 1px solid black;
+}
+
+#main{
+    width: 100%;
+    height: 680px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(190,200,250,0.5));
+    
+}
+
