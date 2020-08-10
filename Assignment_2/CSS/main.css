@@ -1,0 +1,332 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#main_section {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(158, 158, 158, 1)
+  );
+}
+
+video {
+  width: 70%;
+  height: auto;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid black;
+}
+#header img {
+  width: 100%;
+  height: inherit;
+}
+#header {
+  height: 47vw;
+}
+
+.searchBar input[type="text"] {
+  padding: 0.4%;
+  font-size: 1.2vw;
+  border: 1px solid #f1f1f1;
+  float: left;
+  width: 35%;
+  background: #f1f1f1;
+  margin-left: 31%;
+  border-radius: 100vh;
+  position: absolute;
+  outline: none;
+  margin-top: -45.5%;
+  left: 0;
+  right: 0;
+}
+
+.searchBar button {
+  float: left;
+  width: 3%;
+  padding: 0.4%;
+  background: #f1f1f1;
+  color: #2196f3;
+  font-size: 1.2vw;
+  border: 1px solid #f1f1f1;
+  border-left: none;
+  outline: none;
+  border-radius: 100vh;
+  position: absolute;
+  margin-top: -45.5%;
+  left: 0;
+  right: 0;
+  margin-left: 63%;
+  cursor: pointer;
+}
+
+#Title {
+  position: absolute;
+  margin-top: -26%;
+  margin-bottom: 2%;
+  margin-left: 31%;
+  font-size: 2vw;
+  font-family: Segoe UI;
+}
+
+p {
+  font-family: Segoe UI;
+  font-weight: 500;
+  font-size: 110%;
+}
+
+#leftOne {
+  position: absolute;
+  margin-top: -45.5%;
+  margin-left: 5%;
+}
+#leftTwo {
+  position: absolute;
+  margin-top: -45.5%;
+  margin-left: 19%;
+}
+#rightOne {
+  position: absolute;
+  margin-top: -45.5%;
+  margin-left: 88%;
+}
+
+#rightTwo {
+  position: absolute;
+  margin-top: -45.5%;
+  margin-left: 70%;
+}
+a {
+  text-decoration: none;
+  color: #c9345e;
+  font-family: sans-serif;
+  text-shadow: 0.03em 0 black, 0 0.03em black, -0.03em 0 black, 0 -0.03em black;
+  font-size: 2vw;
+  display: flex;
+}
+
+a:hover {
+  color: #2196f3;
+  transition-duration: 0.5s;
+}
+.searchBar button:hover {
+  background-color: #2196f3;
+  color: white;
+  transition-duration: 0.5s;
+}
+.searchBar input:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+#footer {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(158, 158, 158, 1),
+    rgba(120, 120, 120, 1)
+  );
+  width: 100%;
+  height: 500px;
+}
+
+/* Oceans page starts here */
+#wrapper2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(158, 158, 158, 1)
+  );
+  height: 150vh;
+
+  text-align: center;
+}
+.searchBar1 input[type="text"] {
+  padding: 0.4%;
+  font-size: 1.2vw;
+  border: 1px solid #f1f1f1;
+  float: left;
+  width: 35%;
+  background: #f1f1f1;
+  margin-left: 31%;
+  border-radius: 100vh;
+  position: absolute;
+  outline: none;
+  margin-top: 2.2%;
+  left: 0;
+  right: 0;
+}
+.searchBar1 button {
+  float: left;
+  width: 3%;
+  padding: 0.4%;
+  background: #f1f1f1;
+  color: #2196f3;
+  font-size: 1.2vw;
+  border: 1px solid #f1f1f1;
+  border-left: none;
+  outline: none;
+  border-radius: 100vh;
+  position: absolute;
+  margin-top: 2.2%;
+  left: 0;
+  right: 0;
+  margin-left: 63%;
+  cursor: pointer;
+}
+
+#leftOne1 {
+  position: absolute;
+  margin-top: 2.2%;
+  margin-left: 4%;
+}
+#leftTwo1 {
+  position: absolute;
+  margin-top: 2.2%;
+  margin-left: 19%;
+}
+#rightOne1 {
+  position: absolute;
+  margin-top: 2.2%;
+  margin-left: 88%;
+}
+
+#rightTwo1 {
+  position: absolute;
+  margin-top: 2.2%;
+  margin-left: 70%;
+}
+a {
+  text-decoration: none;
+  color: #c9345e;
+  font-family: sans-serif;
+  text-shadow: 0.03em 0 black, 0 0.03em black, -0.03em 0 black, 0 -0.03em black;
+  font-size: 2vw;
+  display: flex;
+}
+
+a:hover {
+  color: #2196f3;
+  transition-duration: 0.5s;
+}
+.searchBar1 button:hover {
+  background-color: #2196f3;
+  color: white;
+  transition-duration: 0.5s;
+}
+.searchBar1 input:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+p {
+  font-family: Segoe UI;
+  font-weight: 500;
+  font-size: 110%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#oceanPollution {
+  width: 38%;
+  margin-left: 2%;
+  height: auto;
+  border-radius: 20px;
+  outline: none;
+  float: left;
+  border: 1px solid black;
+}
+#oceanBottle {
+  width: 40%;
+  margin-left: 18%;
+  height: auto;
+  border-radius: 20px;
+  outline: none;
+  float: left;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 80%;
+  }
+}
+
+/* Forests page starts here */
+
+#wrapper3 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(158, 158, 158, 1)
+  );
+  margin-left: auto;
+  margin-right: auto;
+  height: 150vh;
+  text-align: center;
+}
+p {
+  font-family: Segoe UI;
+  font-weight: 500;
+  font-size: 110%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#forestCutting {
+  width: 46%;
+  height: auto;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid black;
+}
+
+/* Contact page starts here */
+
+#wrapper4 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(158, 158, 158, 1)
+  );
+  height: 150vh;
+}
+.contactForm {
+  margin-top: 15%;
+  margin-left: 35%;
+  font-family: sans-serif;
+  font-size: 2vw;
+}
+
+#submit {
+  width: 40%;
+  background-color: #2196f3;
+  padding: 0.5% 3%;
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+label {
+  display: flex;
+}
+
+.contactForm input {
+  font-family: sans-serif;
+  width: 40%;
+  padding: 0.7% 1%;
+  margin: 0.7% 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+}

@@ -1,0 +1,41 @@
+*{
+    font-family: Arial ;
+    background-color: #b1afb0;
+}
+
+h3,h1{
+    text-align: center;
+    
+}
+
+#Wrapper{
+    width: 920px;
+    margin: auto;
+    padding-top: 2%;
+}
+
+#Header{
+    text-decoration: none;
+    word-spacing: 20px;
+    padding-left: 38%;
+    background-color: #b1afb0;
+}
+
+#t1{
+    border: 1px solid;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+td{
+    border: 1px solid;
+}
+
+
+#About_Me{
+    float: left;
+}
+
+#Background{
+float: left;
+}

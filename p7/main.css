@@ -1,0 +1,9 @@
+label{
+    width: 8%;
+    display: inline-block;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        fieldset{
+            width: 264px;
+        }
+    </style>
+    <script type="text/javascript">
+        function add(){
+            var n1 = parseInt(document.getElementById("num1").value);
+            var n2 = parseInt(document.getElementById("num2").value);
+
+            var sum = n1 + n2;
+
+            alert("The sum of the two numbers is " + sum);
+        }
+
+        function subtract(){
+            var n1 = parseInt(document.getElementById("num1").value);
+            var n2 = parseInt(document.getElementById("num2").value);
+
+            var difference = n1 - n2;
+
+            alert("The difference of the two numbers is " + difference);
+        }
+
+        function multiply(){
+            var n1 = parseInt(document.getElementById("num1").value);
+            var n2 = parseInt(document.getElementById("num2").value);
+
+            var multiplication  = n1 * n2;
+
+            alert("The multiplication of the two numbers is " + multiplication);
+        }
+
+        function devide(){
+            var n1 = parseInt(document.getElementById("num1").value);
+            var n2 = parseInt(document.getElementById("num2").value);
+
+            var division = n1 / n2;
+
+            alert("The division of the two numbers is " + division);
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+    <fieldset>
+
+    <legend> Arithmetic Calculator </legend>
+    <label> First Number </label>&nbsp;&nbsp;&nbsp;&nbsp;<input id = "num1" type="text"><br><br>
+    <label> Second Number </label><input id = "num2" type="text"><br><br>
+    <button onclick="add()"> Add+ </button>
+    <button onclick="subtract()"> Substract- </button>
+    <button onclick="multiply()"> Multiply* </button>
+    <button onclick="devide()"> Devide/ </button>
+
+    </fieldset>
+</body>
+</html>
