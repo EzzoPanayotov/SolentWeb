@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    <script src="JS/script.js"></script>
   </head>
   <body>
     <div id="wrapper4">
@@ -32,28 +33,44 @@
       </div>
       <div id="main_section4">
         <form class="contactForm">
-          <label> First Name: </label
+          <label id="Fname"> First Name: </label
           ><input
-            id="t1"
+            oninput="inputColor()"
+            id="fName"
             type="text"
             placeholder="Your First Name"
-          /><br /><br />
+          />
+          <br /><br />
           <label> Last Name: </label
           ><input
-            id="t2"
+            oninput="inputColor2()"
+            id="lName"
             type="text"
             placeholder="Your Last Name"
           /><br /><br />
           <label> Email: </label
-          ><input id="t3" type="text" placeholder="Your Email" /><br /><br />
+          ><input id="email" type="text" placeholder="Your Email" /><br /><br />
           <label> Phone Number: </label
           ><input
-            id="t4"
+            oninput="inputColor3()"
+            id="phNumber"
             type="text"
             placeholder="Your Phone Number"
           /><br /><br />
-          <button id="submit" onclick="submitDetails()">Submit</button>
+          <label
+            >Message:
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              rows="10"
+            ></textarea>
+          </label>
+          <br /><br /><br /><br /><br /><br />
+          <button id="submit" type="button" onclick="submitDetails()">
+            Submit
+          </button>
         </form>
+        <div id="display"></div>
       </div>
       <div id="footer4"></div>
     </div>
