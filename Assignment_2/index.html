@@ -28,24 +28,31 @@
           <h1><a href="Contact.html">Contact</a></h1>
         </nav>
         <nav id="rightTwo">
-          <h1><a href="#">Privacy Policy</a></h1>
+          <h1><a href="Privacy.html">Privacy Policy</a></h1>
         </nav>
         <form class="searchBar">
-          <input type="text" placeholder="Search.." aria-label="search" />
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search.."
+            aria-label="search"
+          />
+          <button onclick="submitSearch()" id="searchBtn" type="reset">
+            <i class="fa fa-search"></i>
+          </button>
         </form>
         <div id="Title"><h1>Ecological Collapse</h1></div>
       </div>
       <br /><br /><br />
 
       <div id="main_section">
-        <p>
+        <p id="mainTxt">
           Up to a million species could go extinct, if humanity doesn't force
           goverments and industries to clean up their act.
         </p>
         <br /><br />
 
-        <p>
+        <p id="mainTxt2">
           The prediction comes from a summary of an upcoming United Nations
           biodiversity repot. Though scientists have long warned us about
           humanity's impact on plant and animal species, the Global Assesment
