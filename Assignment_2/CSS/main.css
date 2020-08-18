@@ -8,6 +8,13 @@
   margin-right: auto;
   width: 100%;
 }
+#header img {
+  width: 100%;
+  height: inherit;
+}
+#header {
+  height: 47vw;
+}
 
 #main_section {
   text-align: center;
@@ -26,13 +33,6 @@ video {
   border-radius: 20px;
   outline: none;
   border: 1px solid black;
-}
-#header img {
-  width: 100%;
-  height: inherit;
-}
-#header {
-  height: 47vw;
 }
 
 .searchBar input[type="text"] {
@@ -85,6 +85,7 @@ video {
   font-size: 110%;
 }
 #mainTxt2 {
+  font-family: Segoe UI;
   font-weight: 500;
   font-size: 110%;
 }
@@ -139,7 +140,7 @@ a:hover {
     rgba(120, 120, 120, 1)
   );
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
 /* Oceans page starts here */
@@ -149,8 +150,7 @@ a:hover {
     rgba(255, 255, 255, 1),
     rgba(158, 158, 158, 1)
   );
-  height: 150vh;
-
+  height: 120vh;
   text-align: center;
 }
 .searchBar1 input[type="text"] {
@@ -237,30 +237,29 @@ a:hover {
   padding-left: 25%;
   padding-right: 25%;
 }
+#oceanTxt2 {
+  font-family: Segoe UI;
+  font-weight: 500;
+  font-size: 110%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
 
 #oceanPollution {
   width: 38%;
-  margin-left: 2%;
   height: auto;
+  margin-left: 5px;
   border-radius: 20px;
   outline: none;
-  float: left;
   border: 1px solid black;
 }
 #oceanBottle {
   width: 40%;
-  margin-left: 18%;
   height: auto;
+  margin-left: 180px;
   border-radius: 20px;
   outline: none;
-  float: left;
   border: 1px solid black;
-}
-
-@media only screen and (max-width: 600px) {
-  p {
-    font-size: 80%;
-  }
 }
 
 /* Forests page starts here */
@@ -283,6 +282,13 @@ a:hover {
   padding-left: 25%;
   padding-right: 25%;
 }
+#forestTxt2 {
+  font-family: Segoe UI;
+  font-weight: 500;
+  font-size: 110%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
 
 #forestCutting {
   width: 46%;
@@ -290,6 +296,49 @@ a:hover {
   border-radius: 20px;
   outline: none;
   border: 1px solid black;
+}
+
+/* Privacy Policy page starts here */
+#wrapper5 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(158, 158, 158, 1)
+  );
+  height: 150vh;
+}
+#main_section5 {
+  text-align: left;
+  font-family: sans-serif;
+  padding-left: 1%;
+  padding-right: 20%;
+  font-weight: 500;
+}
+#privacyTitle {
+  text-align: center;
+  font-family: sans-serif;
+}
+#main_section5 p {
+  text-align: left;
+  font-weight: 500;
+  font-size: 110%;
+  padding-left: 0.5%;
+  padding-right: 20%;
+  font-family: sans-serif;
+}
+#main_section5 h1,
+h2,
+h3 {
+  font-family: sans-serif;
+}
+
+#main_section5 ul {
+  padding-left: 2%;
+  font-family: sans-serif;
+}
+#footer5Txt {
+  text-align: center;
+  padding-top: 15%;
 }
 
 /* Contact page starts here */
@@ -300,9 +349,9 @@ a:hover {
     rgba(255, 255, 255, 1),
     rgba(158, 158, 158, 1)
   );
-  height: 150vh;
+  height: 120vh;
 }
-#main_section4{
+#main_section4 {
   margin-right: 20%;
   width: 50%;
   padding-right: 10%;
@@ -349,7 +398,7 @@ a:hover {
 #message {
   font-family: sans-serif;
   font-size: 1.5vw;
-  width: inherit;
+  width: 102%;
   padding: 0.7% 1%;
   margin-top: -10%;
   margin-left: 100%;
@@ -361,7 +410,6 @@ a:hover {
   height: 10vw;
   float: left;
 }
-
 
 #displayDetails {
   margin-top: -28.5%;
@@ -379,45 +427,122 @@ a:hover {
   overflow-wrap: break-word;
 }
 
-/* Privacy Policy page starts here */
-#wrapper5{
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1),
-    rgba(158, 158, 158, 1)
-  );
-  height: 150vh;
-}
-}
-#main_section5 {
-  text-align: left;
-  font-family: sans-serif;
-  padding-left: 1%;
-  padding-right: 20%;
-  font-weight:500;
-}
-#privacyTitle {
-  text-align: center;
-  font-family: sans-serif;
-}
-#main_section5 p {
-  text-align: left;
-  font-weight: 500;
-  font-size: 110%;
-  padding-left: 0.5%;
-  padding-right: 20%;
-  font-family: sans-serif;
-}
-#main_section5 h1,h2,h3{
-  font-family: sans-serif;
-}
-
-#main_section5 ul {
-  padding-left: 2%;
-  font-family: sans-serif;
-
-}
-#footer5Txt {
-  text-align: center;
-  padding-top: 15%;
+@media only screen and (max-width: 600px) {
+  a {
+    font-size: 2.5vw;
+  }
+  /* Main page  */
+  .searchBar input[type="text"] {
+    font-size: 2vw;
+    width: 37%;
+  }
+  .searchBar button {
+    font-size: 2vw;
+    width: 5%;
+  }
+  #mainTxt,
+  #mainTxt2 {
+    font-size: 100%;
+  }
+  video {
+    width: 100%;
+  }
+  /* Ocean page */
+  #wrapper2 {
+    height: 160vh;
+  }
+  #oceanTxt {
+    font-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #oceanTxt2 {
+    font-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #oceanPollution {
+    float: none;
+    margin: 0;
+    width: 80%;
+  }
+  #oceanBottle {
+    float: none;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 0;
+  }
+  /* Forest page */
+  #forestTxt {
+    font-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #forestTxt2 {
+    font-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #forestCutting {
+    width: 80%;
+  }
+  /* Privacy page */
+  #wrapper5 {
+    height: 230vh;
+  }
+  #main_section5 ul {
+    padding-left: 5%;
+  }
+  #main_section5 h1,
+  h2,
+  h3 {
+    padding-left: 5%;
+  }
+  #main_section5 p {
+    padding-left: 5%;
+  }
+  #footer5Txt {
+    padding-top: 8%;
+  }
+  /* Contact page */
+  .searchBar1 input[type="text"] {
+    font-size: 2vw;
+    width: 37%;
+  }
+  .searchBar1 button {
+    font-size: 2vw;
+    width: 5%;
+  }
+  #displayDetails {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 20%;
+    font-size: 3vw;
+    padding: 2%;
+  }
+  #main_section4 {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+  .contactForm {
+    font-size: 3vw;
+    margin-left: -2%;
+  }
+  .contactForm label {
+    width: 8em;
+  }
+  .contactForm input {
+    font-size: 2vw;
+  }
+  #message {
+    width: 100%;
+    font-size: 2vw;
+  }
+  #submit {
+    margin-top: -10%;
+    margin-left: 41%;
+    float: left;
+  }
 }
