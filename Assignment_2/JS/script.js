@@ -93,14 +93,192 @@ function clearAndShow() {
 }
 // This is my best try to make the search bar work, I tried to put certain values in an array
 // My thinking was: if the input value is equal to a certain value in the array.... redirect to the certain page
-// But I couldn't make the input value interact with the array... I was thinking of using a for loop
 function submitSearch() {
-  var search = document.getElementById("searchInput");
+  var search = document.getElementById("searchInput").value;
   var forests = ["Forests", "Trees", "Plants"];
-  if ((search.value = "")) {
+  var oceans = ["Oceans", "Water", "Ocean Pollution"];
+  var privacy = ["Privacy", "Policy", "Data Usage"];
+  var contact = ["Contact", "Form", "Message"];
+  var home = ["Home", "Video", "Title"];
+  if (search == "") {
     alert("No result found");
-  }
-  if (search.value == forests) {
+  } else if (
+    search == forests[0] ||
+    search == forests[1] ||
+    search == forests[2]
+  ) {
     location.href = "Forests.html";
+  } else if (
+    search == oceans[0] ||
+    search == oceans[1] ||
+    search == oceans[2]
+  ) {
+    location.href = "Oceans.html";
+  } else if (
+    search == privacy[0] ||
+    search == privacy[1] ||
+    search == privacy[2]
+  ) {
+    location.href = "Privacy.html";
+  } else if (
+    search == contact[0] ||
+    search == contact[1] ||
+    search == contact[2]
+  ) {
+    location.href = "Contact.html";
+  } else if (search == home[0] || search == home[1] || search == home[2]) {
+    location.href = "index.html";
+  }
+}
+
+function submitSearch2() {
+  var search = document.getElementById("searchInput2").value;
+  var forests = ["Forests", "Trees", "Plants"];
+  var oceans = ["Oceans", "Water", "Ocean Pollution"];
+  var privacy = ["Privacy", "Policy", "Data Usage"];
+  var contact = ["Contact", "Form", "Message"];
+  var home = ["Home", "Video", "Title"];
+  if (search == "") {
+    alert("No result found");
+  } else if (
+    search == forests[0] ||
+    search == forests[1] ||
+    search == forests[2]
+  ) {
+    location.href = "Forests.html";
+  } else if (
+    search == oceans[0] ||
+    search == oceans[1] ||
+    search == oceans[2]
+  ) {
+    location.href = "Oceans.html";
+  } else if (
+    search == privacy[0] ||
+    search == privacy[1] ||
+    search == privacy[2]
+  ) {
+    location.href = "Privacy.html";
+  } else if (
+    search == contact[0] ||
+    search == contact[1] ||
+    search == contact[2]
+  ) {
+    location.href = "Contact.html";
+  } else if (search == home[0] || search == home[1] || search == home[2]) {
+    location.href = "index.html";
+  }
+}
+
+function submitSearch3() {
+  var search = document.getElementById("searchInput3").value;
+  var forests = ["Forests", "Trees", "Plants"];
+  var oceans = ["Oceans", "Water", "Ocean Pollution"];
+  var privacy = ["Privacy", "Policy", "Data Usage"];
+  var contact = ["Contact", "Form", "Message"];
+  var home = ["Home", "Video", "Title"];
+  if (search == "") {
+    alert("No result found");
+  } else if (
+    search == forests[0] ||
+    search == forests[1] ||
+    search == forests[2]
+  ) {
+    location.href = "Forests.html";
+  } else if (
+    search == oceans[0] ||
+    search == oceans[1] ||
+    search == oceans[2]
+  ) {
+    location.href = "Oceans.html";
+  } else if (
+    search == privacy[0] ||
+    search == privacy[1] ||
+    search == privacy[2]
+  ) {
+    location.href = "Privacy.html";
+  } else if (
+    search == contact[0] ||
+    search == contact[1] ||
+    search == contact[2]
+  ) {
+    location.href = "Contact.html";
+  } else if (search == home[0] || search == home[1] || search == home[2]) {
+    location.href = "index.html";
+  }
+}
+
+function submitSearch4() {
+  var search = document.getElementById("searchInput4").value;
+  var forests = ["Forests", "Trees", "Plants"];
+  var oceans = ["Oceans", "Water", "Ocean Pollution"];
+  var privacy = ["Privacy", "Policy", "Data Usage"];
+  var contact = ["Contact", "Form", "Message"];
+  var home = ["Home", "Video", "Title"];
+  if (search == "") {
+    alert("No result found");
+  } else if (
+    search == forests[0] ||
+    search == forests[1] ||
+    search == forests[2]
+  ) {
+    location.href = "Forests.html";
+  } else if (
+    search == oceans[0] ||
+    search == oceans[1] ||
+    search == oceans[2]
+  ) {
+    location.href = "Oceans.html";
+  } else if (
+    search == privacy[0] ||
+    search == privacy[1] ||
+    search == privacy[2]
+  ) {
+    location.href = "Privacy.html";
+  } else if (
+    search == contact[0] ||
+    search == contact[1] ||
+    search == contact[2]
+  ) {
+    location.href = "Contact.html";
+  } else if (search == home[0] || search == home[1] || search == home[2]) {
+    location.href = "index.html";
+  }
+}
+
+function submitSearch5() {
+  var search = document.getElementById("searchInput5").value;
+  var forests = ["Forests", "Trees", "Plants"];
+  var oceans = ["Oceans", "Water", "Ocean Pollution"];
+  var privacy = ["Privacy", "Policy", "Data Usage"];
+  var contact = ["Contact", "Form", "Message"];
+  var home = ["Home", "Video", "Title"];
+  if (search == "") {
+    alert("No result found");
+  } else if (
+    search == forests[0] ||
+    search == forests[1] ||
+    search == forests[2]
+  ) {
+    location.href = "Forests.html";
+  } else if (
+    search == oceans[0] ||
+    search == oceans[1] ||
+    search == oceans[2]
+  ) {
+    location.href = "Oceans.html";
+  } else if (
+    search == privacy[0] ||
+    search == privacy[1] ||
+    search == privacy[2]
+  ) {
+    location.href = "Privacy.html";
+  } else if (
+    search == contact[0] ||
+    search == contact[1] ||
+    search == contact[2]
+  ) {
+    location.href = "Contact.html";
+  } else if (search == home[0] || search == home[1] || search == home[2]) {
+    location.href = "index.html";
   }
 }

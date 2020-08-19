@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    <script src="JS/script.js"></script>
   </head>
   <body>
     <div id="wrapper5">
@@ -25,8 +26,15 @@
           <h1><a href="Forests.html">Forests</a></h1>
         </nav>
         <form class="searchBar1">
-          <input type="text" placeholder="Search.." aria-label="search" />
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <input
+            id="searchInput4"
+            type="text"
+            placeholder="Search.."
+            aria-label="search"
+          />
+          <button onclick="submitSearch4()" id="searchBtn4" type="reset">
+            <i class="fa fa-search"></i>
+          </button>
         </form>
         <br /><br /><br />
       </div>

@@ -83,4 +83,9 @@ I had some problems there as well, mostly because of the height of different "di
 For the design of my "Home Page" I got inspired by the following webpage:
 Global Challenges Fundation (2019), _Ecological Collapse_. Available at: https://globalchallenges.org/global-risks/ecological-collapse/ (Accessed: 10 August 2020).
 
-Most of the information in my website can be found here: Lindwall C. (2019) _U.N. Report: A Million Extinctions and Ecological Collapse Are on the Way_. Available at: https://www.nrdc.org/stories/report-million-extinctions-and-ecological-collapse-are-way (Accesed: 10 August 2020).
+Most of the information in my website can be found here: Lindwall C. (2019) _U.N. Report: A Million Extinctions and Ecological Collapse Are on the Way_. Available at: https://www.nrdc.org/stories/report-million-extinctions-and-ecological-collapse-are-way (Accessed: 10 August 2020).
+
+I have also pushed my entire work on GitHub.
+My repository: https://github.com/EzzoPanayotov/SolentWeb
+
+TED-Ed (2015) _Why is biodiversity so important? -Kim Preshoff_ Available at: https://www.youtube.com/watch?v=GK_vRtHJZu4 (Accessed 10 August 2020).
