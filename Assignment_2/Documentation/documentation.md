@@ -74,6 +74,10 @@ Not applicable
 
 ### Evaluation
 
+I added hyperlinks which work as expected, I also made my searchbar work, not efficiently, but it works.
+Also, I managed to make the whole website responsive for Android(Pixel 2 XL) by using media query.
+The contact form almost looks and atcs like a real one in my opinion, it just has some problems with the email and phone number input, I also made it so it saves the user input and then displays it on the "div" next to it.
+
 I had some problems in CSS, some of them were related to the "margin", for example I didn't knew "margin" accepted negative values, so that got me stuck one time, also "positon: absolute;" had me confused a couple of times.
 I also had and still have some Javascript problems, for example: I couldn't figure out how to do the "if" statement for my searchbar, aslo I couldn't find the right RegExp Expression for the email validation, but in my opinion that's just lack of knowledge and experience.
 
